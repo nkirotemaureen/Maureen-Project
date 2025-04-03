@@ -1,0 +1,45 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 10px;
+    background: plum;
+    border-radius: 10px;
+    ;
+
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+
+}
+
+form, select {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.ticket {
+    background: white;
+    padding: 15px;
+    border: 5px solid #ddd;
+    margin-bottom: 10px;
+}
+
+button {
+    background: maroon;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: peachpuff;
+}

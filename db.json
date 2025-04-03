@@ -1,0 +1,53 @@
+{
+  "tickets": [
+    {
+      "id": 210,
+      "title": "Account access issue",
+      "description": "Unable to log in to the account.",
+      "status": "open",
+      "priority": "medium"
+    },
+    {
+      "id": 211,
+      "title": "Music streaming error",
+      "description": "Error while streaming music.",
+      "status": "resolved",
+      "priority": "high"
+    },
+    {
+      "id": 212,
+      "title": "Payment processing failure",
+      "description": "Payment could not be processed.",
+      "status": "resolved",
+      "priority": "high"
+    },
+    {
+      "id": 213,
+      "title": "App crashing on startup",
+      "description": "The app crashes when I try to open it.",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "id": 214,
+      "title": "Feature request: Dark mode",
+      "description": "Request for a dark mode feature.",
+      "status": "open",
+      "priority": "low"
+    },
+    {
+      "id": 215,
+      "title": "Music not in my Library",
+      "description": "User purchased music and was charged but it does not appear in their library.",
+      "status": "open",
+      "priority": "medium"
+    },
+    {
+      "id": "47b1",
+      "title": "player not working",
+      "description": "The music player does not work when user attempts to listen",
+      "status": "open",
+      "priority": "high"
+    }
+  ]
+}

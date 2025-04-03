@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Ticket Tracker</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Customer Support Ticket Tracker</h1>
+
+    <form id="ticketForm">
+        <input type="text" id="title" placeholder="Ticket Title" required>
+        <textarea id="description" placeholder="Describe the issue" required></textarea>
+        <select id="priority">
+            <option value="high">High</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+        </select>
+        <button type="submit">Add Ticket</button>
+    </form>
+
+    <select id="filterStatus">
+        <option value="all">All</option>
+        <option value="open">Open</option>
+        <option value="resolved">Resolved</option>
+    </select>
+
+    <div id="ticketList"></div>
+
+    <script src="./script/index.js"></script>
+</body>
+</html>
