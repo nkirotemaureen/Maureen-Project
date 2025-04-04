@@ -1,15 +1,27 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
-    max-width: 700px;
-    margin: 30px auto;
-    padding: 10px;
-    background: plum;
-    border-radius: 10px;
+     font-family: "Times New Roman", Times, serif;
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 10px;
+  background: wheat;
+  border-radius: 10px;
+  float: center;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url("https://cdn-icons-png.flaticon.com/512/8781/8781951.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-color: #f0f0f0;
+  background-blend-mode: overlay;
+  background-size: cover;
+   
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color:maroon;
     font-size: 2.5em;
     margin-bottom: 20px;
 }
