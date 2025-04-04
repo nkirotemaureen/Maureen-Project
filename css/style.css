@@ -5,8 +5,6 @@ body {
     padding: 10px;
     background: plum;
     border-radius: 10px;
-    ;
-
 }
 
 h1 {
@@ -14,11 +12,9 @@ h1 {
     color: #333;
     font-size: 2.5em;
     margin-bottom: 20px;
-
 }
 
-form, select {
-
+form, select, input {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -42,4 +38,15 @@ button {
 
 button:hover {
     background: peachpuff;
+}
+
+
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode .ticket {
+    background: #444;
+    border: 1px solid #555;
 }
